@@ -1,1 +1,4 @@
 # sql-challenge
+The tasks for this project includes data modeling by designing tables to hold the data from the CSV files and then sketching an Entity Relationship Diagram of the tables. It also includes data engineering where it involves importing the CSV files into a SQL database. A program called pgAdmin is used. And finally the project includes data analysis where data is analyzed using SQL commands to answer questions about the data.
+
+The issues I encountered while importing the CSV files was greatly helped by AsKBCS and other error codes as well. For instance to solve the error of importing one of the CSV files I had to change the format of the date columns from 'dd/mm/yyyy' to 'yyyy-mm-dd' on the csv file, in addition to ensure the the file is in the correct directory when I import it. Lastly, it helped to restart the program whenever I encountered issues when trying to save a file or execute any commands due to loss of session.
